@@ -1,8 +1,8 @@
-import Card from "./Card.jsx";
-import { useApp } from "../context/AppContext.jsx";
-import { highestSpendingCategory, monthlyComparison, totals } from "../utils/finance.js";
-import { formatCurrency } from "../utils/format.js";
-import { cn } from "../utils/cn.js";
+import Card from "./Card";
+import { useApp } from "../context/AppContext";
+import { highestSpendingCategory, monthlyComparison, totals } from "../utils/finance";
+import { formatCurrency } from "../utils/format";
+import { cn } from "../utils/cn";
 
 function StatRow({ label, value, tone = "neutral" }) {
   const toneClass =

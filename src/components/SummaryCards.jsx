@@ -1,8 +1,8 @@
-import Card from "./Card.jsx";
-import { totals, STARTING_BALANCE } from "../utils/finance.js";
-import { formatCurrency } from "../utils/format.js";
-import { useApp } from "../context/AppContext.jsx";
-import { cn } from "../utils/cn.js";
+import Card from "./Card";
+import { totals, STARTING_BALANCE } from "../utils/finance";
+import { formatCurrency } from "../utils/format";
+import { useApp } from "../context/AppContext";
+import { cn } from "../utils/cn";
 
 function SummaryCard({ label, value, sub, tone = "neutral" }) {
   const tones = {

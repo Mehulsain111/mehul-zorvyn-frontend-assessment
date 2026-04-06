@@ -1,6 +1,6 @@
-import RoleSwitcher from "./RoleSwitcher.jsx";
-import DarkModeToggle from "./DarkModeToggle.jsx";
-import Button from "./Button.jsx";
+import RoleSwitcher from "./RoleSwitcher";
+import DarkModeToggle from "./DarkModeToggle";
+import Button from "./Button";
 
 export default function PageShell({ title, subtitle, onAddTransaction, children }) {
   return (

@@ -1,10 +1,10 @@
 import { useMemo } from "react";
-import Card from "./Card.jsx";
-import TransactionsControls from "./TransactionsControls.jsx";
-import TransactionsTable from "./TransactionsTable.jsx";
-import EmptyState from "./EmptyState.jsx";
-import { useApp } from "../context/AppContext.jsx";
-import { filterTransactions } from "../utils/finance.js";
+import Card from "./Card";
+import TransactionsControls from "./TransactionsControls";
+import TransactionsTable from "./TransactionsTable";
+import EmptyState from "./EmptyState";
+import { useApp } from "../context/AppContext";
+import { filterTransactions } from "../utils/finance";
 
 export default function TransactionsSection({ onEdit }) {
   const { transactions, filters, role } = useApp();

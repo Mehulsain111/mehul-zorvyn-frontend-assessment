@@ -7,10 +7,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { useApp } from "../context/AppContext.jsx";
-import { balanceTrend } from "../utils/finance.js";
-import { formatCurrency, formatDate } from "../utils/format.js";
-import EmptyState from "../components/EmptyState.jsx";
+import { useApp } from "../context/AppContext";
+import { balanceTrend } from "../utils/finance";
+import { formatCurrency, formatDate } from "../utils/format";
+import EmptyState from "../components/EmptyState";
 
 function TooltipContent({ active, payload, label }) {
   if (!active || !payload?.length) return null;

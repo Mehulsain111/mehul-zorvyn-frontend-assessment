@@ -1,6 +1,6 @@
-import { formatCurrency, formatDate } from "../utils/format.js";
-import { cn } from "../utils/cn.js";
-import Button from "./Button.jsx";
+import { formatCurrency, formatDate } from "../utils/format";
+import { cn } from "../utils/cn";
+import Button from "./Button";
 
 function TypePill({ type }) {
   const isIncome = type === "income";

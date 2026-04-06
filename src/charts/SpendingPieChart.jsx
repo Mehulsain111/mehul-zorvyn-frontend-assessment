@@ -1,9 +1,9 @@
 import { Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
-import { useApp } from "../context/AppContext.jsx";
-import { spendingByCategory } from "../utils/finance.js";
-import { CATEGORY_COLORS } from "../utils/colors.js";
-import { formatCurrency } from "../utils/format.js";
-import EmptyState from "../components/EmptyState.jsx";
+import { useApp } from "../context/AppContext";
+import { spendingByCategory } from "../utils/finance";
+import { CATEGORY_COLORS } from "../utils/colors";
+import { formatCurrency } from "../utils/format";
+import EmptyState from "../components/EmptyState";
 
 function TooltipContent({ active, payload }) {
   if (!active || !payload?.length) return null;

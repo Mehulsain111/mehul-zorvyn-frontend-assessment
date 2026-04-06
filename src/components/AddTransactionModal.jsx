@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
-import { useApp } from "../context/AppContext.jsx";
-import Button from "./Button.jsx";
-import { makeId } from "../utils/id.js";
+import { useApp } from "../context/AppContext";
+import Button from "./Button";
+import { makeId } from "../utils/id";
 
 const DEFAULT_FORM = {
   date: "",

@@ -1,7 +1,7 @@
 import React, { createContext, useEffect, useMemo, useState } from "react";
-import { DEFAULT_TRANSACTIONS } from "../data/transactions.js";
-import { loadJSON, saveJSON } from "../utils/storage.js";
-import { sortTransactions } from "../utils/finance.js";
+import { DEFAULT_TRANSACTIONS } from "../data/transactions";
+import { loadJSON, saveJSON } from "../utils/storage";
+import { sortTransactions } from "../utils/finance";
 
 const AppContext = createContext(null);
 

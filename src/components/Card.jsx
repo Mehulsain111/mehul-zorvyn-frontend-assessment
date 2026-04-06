@@ -1,4 +1,4 @@
-import { cn } from "../utils/cn.js";
+import { cn } from "../utils/cn";
 
 export default function Card({ title, subtitle, actions, className, children }) {
   return (

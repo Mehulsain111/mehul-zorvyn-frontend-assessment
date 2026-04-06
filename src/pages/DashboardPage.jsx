@@ -1,13 +1,13 @@
 import { useMemo, useState } from "react";
-import PageShell from "../components/PageShell.jsx";
-import SummaryCards from "../components/SummaryCards.jsx";
-import Card from "../components/Card.jsx";
-import BalanceLineChart from "../charts/BalanceLineChart.jsx";
-import SpendingPieChart from "../charts/SpendingPieChart.jsx";
-import TransactionsSection from "../components/TransactionsSection.jsx";
-import InsightsSection from "../components/InsightsSection.jsx";
-import AddTransactionModal from "../components/AddTransactionModal.jsx";
-import { useApp } from "../context/AppContext.jsx";
+import PageShell from "../components/PageShell";
+import SummaryCards from "../components/SummaryCards";
+import Card from "../components/Card";
+import BalanceLineChart from "../charts/BalanceLineChart";
+import SpendingPieChart from "../charts/SpendingPieChart";
+import TransactionsSection from "../components/TransactionsSection";
+import InsightsSection from "../components/InsightsSection";
+import AddTransactionModal from "../components/AddTransactionModal";
+import { useApp } from "../context/AppContext";
 
 export default function DashboardPage() {
   const { role, transactions } = useApp();

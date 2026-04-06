@@ -1,4 +1,4 @@
-import { useApp } from "../context/AppContext.jsx";
+import { useApp } from "../context/AppContext";
 
 export default function RoleSwitcher() {
   const { role, setRole } = useApp();

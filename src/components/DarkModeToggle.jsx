@@ -1,5 +1,5 @@
-import Button from "./Button.jsx";
-import { useApp } from "../context/AppContext.jsx";
+import Button from "./Button";
+import { useApp } from "../context/AppContext";
 
 export default function DarkModeToggle() {
   const { darkMode, setDarkMode } = useApp();

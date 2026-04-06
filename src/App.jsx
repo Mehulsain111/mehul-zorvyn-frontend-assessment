@@ -1,5 +1,5 @@
-import { AppProvider } from "./context/AppContext.jsx";
-import DashboardPage from "./pages/DashboardPage.jsx";
+import { AppProvider } from "./context/AppContext";
+import DashboardPage from "./pages/DashboardPage";
 
 export default function App() {
   return (
