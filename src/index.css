@@ -129,3 +129,8 @@ html {
 .recharts-wrapper {
   user-select: none;
 }
+@media (max-width: 555px) {
+  .container-xxl {
+   font-size: small;
+  }
+}

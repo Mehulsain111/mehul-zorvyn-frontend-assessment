@@ -10,8 +10,7 @@ export default function TransactionsControls() {
         value={filters.search}
         onChange={(e) => setFilters((f) => ({ ...f, search: e.target.value }))}
         placeholder="Search category or amount..."
-        className="form-control"
-        style={{ minWidth: 240, flex: "1 1 320px" }}
+        className="form-control "
         aria-label="Search transactions"
       />
 
